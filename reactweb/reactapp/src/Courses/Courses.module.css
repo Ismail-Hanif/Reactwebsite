@@ -1,0 +1,27 @@
+.CourseBg{
+    box-shadow: 3px 3px 10px rgba(207, 207, 207, 0.905) ;
+}
+.uxDesign{
+    display: flex;
+    gap: 20px;
+}
+.uxDesign h5{
+    color: #D2093C;
+    font-weight:350;
+}
+.uxDesign p {
+    font-size: 18px;
+    color: #00306E;
+}
+.courseTile{
+    color: #00306E;
+    font-weight: 600;
+    line-height: 22px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.price h4{
+    color: #D2093C;
+}

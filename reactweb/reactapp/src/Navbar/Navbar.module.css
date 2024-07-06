@@ -1,0 +1,33 @@
+.navSearch{
+    display: flex;
+    height: 40px;
+    background-color: #f4f5f5e3;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.navSearch input{
+    background: none;
+    border: none;
+    outline: none;
+}
+.navSearch button{
+    background: none;
+    border: none;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3272c7;
+    font-weight: 550;
+
+}
+.active{
+    color: #D2093C;
+    font-weight: 600;
+
+}
+.unactive{
+    color: #00306E;
+    font-weight: 600;
+}

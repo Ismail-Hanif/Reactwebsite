@@ -1,0 +1,10 @@
+.campus{
+    background-color: #F5F5F5;
+    padding:0 70px;
+}
+
+@media screen and (max-width:500px){
+    .campus {
+        padding: 0 20px;
+    }
+}

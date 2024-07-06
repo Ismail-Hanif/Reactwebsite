@@ -1,0 +1,18 @@
+.reviewContain{
+    border: 2px solid rgba(195, 195, 195, 0.728);
+    border-radius: 10px;
+}
+.Name h5{
+    font-weight: 700;
+}
+.Name span{
+    color: rgba(66, 65, 65, 0.932);
+}
+.review{
+    line-height: 1.5;
+    color: rgba(125, 125, 125, 0.932);
+
+}
+.Rating .stars{
+    color: orange;
+}

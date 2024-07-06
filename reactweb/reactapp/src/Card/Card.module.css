@@ -1,0 +1,44 @@
+.card{
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+.cardDetails{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    z-index: 2;
+    display: flex;
+    line-height: 0;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.imgDiv{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.897);
+    height: 100%;
+    opacity: 0;
+    transition: ease-in-out .5s;
+    top: 0;
+    overflow: hidden;
+    
+}
+
+.card img{
+    width: 100%;
+}
+.card:hover .overlay{ 
+    opacity: 1;
+}
+.card:hover .cardDetails{
+    color: rgb(211, 208, 208);
+}

@@ -1,0 +1,49 @@
+.PlatformHead{
+    padding: 10px 0;
+    color: rgba(92, 92, 92, 0.653);
+}
+.PlatformHead h1{
+    color: #00306E;
+    width: 60%;
+    font-weight: 700;
+    font-size: 2.9rem;
+    line-height: 2.4rem;
+}
+.PlatformHead h1 span {
+    color: #D2093C;
+}
+.PlatformHead p {
+    font-size: 22px;
+}
+.PlatformHead p span{
+    color: #D2093C;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.platformMid p{
+    font-size: 20px;
+    color: rgba(92, 92, 92, 0.653);
+
+}
+.platformFooter {
+    gap: 40px;
+}
+.platformFooter span {
+    font-size: 26px;
+    color: #00306E;
+
+}
+.platformFooter .getsupport{
+    line-height: 0;
+}
+.platformFooter .getsupport p{
+    color: #00306E;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+.platformFooter .getsupport p:hover{
+    color: #D2093C;
+    transition: .5s;
+
+}

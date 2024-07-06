@@ -1,0 +1,81 @@
+.footerlist{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contacts{
+    line-height: .5;
+    cursor: pointer;
+}
+.contacts p:hover{
+    color: #D2093C;
+    transition: .4s;
+
+
+}
+.footerlist ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.footerlist ul a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.805);
+}
+.footerlist ul a:hover{
+    color: #D2093C;
+    transition: .4s;
+    text-decoration: underline;
+}
+.inpBox{
+    display: flex;
+    background-color: aqua;
+    height: 55px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.inpBox input{
+    width: 90%;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+.inpBox .inpArrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    background-color: #467EFC;
+    font-size: 24px;
+    padding: 0 30px;
+}
+.copyright{
+    font-size: 14px;
+    font-weight: 600;
+}
+.copyright span{
+    color: #D2093C;
+}
+.follow{
+    width: 80px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+
+}
+.scoial{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 50%;
+}

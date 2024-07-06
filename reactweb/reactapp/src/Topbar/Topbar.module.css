@@ -1,0 +1,21 @@
+.topbarBg{
+    background-color: #00306E;
+    box-sizing: border-box !important;
+    /* height: 34px; */
+
+}
+.topbarBg ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;   
+    padding: 4px 6px;
+    margin: 0;
+}
+.topbarBg ul a{
+    text-decoration:none ;
+    color: white;
+}
+.topbarBg ul a:hover{
+    color: rgba(136, 134, 134, 0.842);
+    transition: .5s;
+}
